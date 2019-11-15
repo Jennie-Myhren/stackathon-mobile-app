@@ -76,12 +76,6 @@ const config = {
 const net = new NeuralNetwork(config);
 
 //log error + iterations post-training
-// console.log('Artificial brain done training!', net.train(cleanTrainData));
-
-// const train = net.train(cleanTrainData, () => {
-//   console.log('Artificial brain done training!');
-// });
-
 console.log('Artificial brain done training!', net.train(cleanTrainData));
 
 const trainedBrain = net;
