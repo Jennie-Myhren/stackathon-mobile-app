@@ -1,6 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import DataInputPage from './client/DataInputPage';
+import React, { useState } from 'react';
+import { StyleSheet, Text, ScrollView, View } from 'react-native';
+import {
+  Avatar,
+  FormLabel,
+  FormInput,
+  FormValidationMessage,
+} from 'react-native-elements';
+// import TestPage from './client/DataInputPage';
 
 const styles = StyleSheet.create({
   container: {
@@ -12,10 +18,40 @@ const styles = StyleSheet.create({
 });
 
 export default function App() {
+  // const [radiusMean, onChangeText] = useState('');
+
   return (
     <View style={styles.container}>
+      <Avatar
+        small
+        rounded
+        source={{
+          //Photo of Margaret Hamburg in public domain
+          uri:
+            'https://upload.wikimedia.org/wikipedia/commons/a/a8/Margaret_Hamburg_official_portrait.jpg',
+        }}
+        activeOpacity={0.7}
+      />
       <Text>Hello World</Text>
-      <DataInputPage />
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      {/* </ScrollView> */}
     </View>
   );
 }
